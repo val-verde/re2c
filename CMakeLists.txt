@@ -52,7 +52,7 @@ find_package(BISON)
 find_package(Python3 COMPONENTS Interpreter)
 
 # checks for C++ compiler flags
-set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON) # make sure object libraries work with shared libraries
 
